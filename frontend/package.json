@@ -1,0 +1,47 @@
+{
+  "name": "ethio-ehealth-frontend",
+  "version": "1.0.0",
+  "description": "Ethio E-Health Platform Frontend",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier --write .",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "next": "^14.0.4",
+    "typescript": "^5.3.3",
+    "tailwindcss": "^3.3.6",
+    "@tailwindcss/forms": "^0.5.7",
+    "@tailwindcss/typography": "^0.5.10",
+    "framer-motion": "^10.16.16",
+    "@tanstack/react-query": "^5.28.0",
+    "zustand": "^4.4.1",
+    "react-hook-form": "^7.48.0",
+    "zod": "^3.22.4",
+    "@hookform/resolvers": "^3.3.4",
+    "axios": "^1.6.5",
+    "next-intl": "^3.0.0-rc.7",
+    "lucide-react": "^0.294.0",
+    "clsx": "^2.0.0",
+    "socket.io-client": "^4.7.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.37",
+    "@types/node": "^20.10.6",
+    "@types/react-dom": "^18.2.15",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "eslint": "^8.56.0",
+    "eslint-config-next": "^14.0.4",
+    "prettier": "^3.1.1",
+    "@types/jest": "^29.5.11",
+    "jest": "^29.7.0",
+    "@testing-library/react": "^14.1.2"
+  }
+}
